@@ -12,9 +12,7 @@ const satelliteLayer = L.tileLayer(
     minZoom: 13,
   }
 );
-const satelliteLayer = L.tileLayer(
-  'https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v9/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibGF0aW1lcyIsImEiOiJjanJmNjg4ZzYweGtvNDNxa2ZpZ2lma3Z4In0.g0lYVIEs9Y5QcUOhXactHA'
-);
+
 satelliteLayer.addTo(map);
 
 map.setView([33.983265, -118.306799], 18);
